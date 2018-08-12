@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(238, 241, 241);
+}
+
+header {
+    background: #cad4ca;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-transform: lowercase;
+}
+
+.in {
+    color: rgb(110, 107, 107);
+}
+
+.navbar {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 107, 107);
+}
+
+.navbar a:hover {
+    color: rgb(33, 177, 28);
+}
+
+.parent-element {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a-element input {
+    padding: 10px;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    padding-right: 10px;
+}
