@@ -24,7 +24,7 @@
                         <a href="user-profile.html">User-Profile</a>
                     </li>
                     <li>
-                        <a href="topics.html">Topics</a>
+                        <a href="signup.html">Sign up</a>
                     </li>
                     <li>
                         <a href="questions.html">Questions</a>
@@ -37,14 +37,25 @@
             <div class="a-element">
                 <h3>Sign In</h3>
                 <label for="username">Username:</label>
-                <input type="text" value="username" placeholder="Username">
+                <input type="text" value="username" placeholder="Username or email">
                 <label for="password">Password:</label>
                 <input type="password" value="password" placeholder="Password">
                 <br>
-                <input type="submit" name="submit" value="submit">
+                <a href="user-profile.html">
+                    <input type="submit" name="signin" class="signin" value="Sign In">
+                </a>
+                <div class="sign">
+                    <p>Don't have an account?
+                        <a href="signup.html" id="#11">
+                            <b>Sign Up</b>
+                        </a>
+
+                    </p>
+                </div>
 
             </div>
             <div class="b-element">
+                <textarea name="search" id="search" rows="1" placeholder="search stackoverflow"></textarea>
                 <h3>Select Topic</h3>
                 <select name="Available Topics" id="topic">
                     <option value="Social life">Social life</option>
@@ -58,13 +69,13 @@
             </div>
             <div class="c-element">
                 <h3>Ask a Question</h3>
-                <textarea name="Question" id="qtn" cols="60" rows="15">Ask:</textarea>
+                <textarea name="Question" id="qtn" cols="50" rows="5" placeholder="Type starting with How,Why,What,Is,What and Are?"></textarea>
                 <br>
                 <input type="submit" name="Post a Question" value="Post">
             </div>
         </div>
         <footer>
-            <h4>stack over flow</h4>
+            <h4> &reg; stack over flow &rarr; lite</h4>
         </footer>
     </div>
 </body>
