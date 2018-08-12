@@ -103,17 +103,17 @@ label {
     margin-top: 10px;
 }
 
-
-}
 .SignU h2 {
     color: rgb(135, 192, 192);
     text-shadow: green;
     text-align: center;
 }
+
 .SignU form {
     margin: 0 auto;
     width: 400px;
 }
+
 .SignU input {
     display: block;
     width: 100%;
@@ -124,26 +124,31 @@ label {
     background: white;
     color: rgb(107, 104, 104);
 }
+
 .SignU input.signup {
     width: 20%;
     background: rgb(79, 149, 182);
     color: white;
     text-align: left;
 }
+
 .sign1 {
     color: rgb(75, 72, 72);
     margin-top: 40px;
     text-align: center;
 }
+
 .profile a {
     display: block;
     margin: 20px;
 }
+
 .userdata {
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
 }
+
 .topic input {
     display: block;
     margin-bottom: 10px;
@@ -154,6 +159,7 @@ label {
     color: white;
     background: rgb(73, 70, 70);
 }
+
 .query #qtn {
     border-radius: 10px;
     color: rgb(126, 119, 119);
@@ -162,18 +168,22 @@ label {
     resize: none;
     outline: none;
 }
+
 .query input {
     color: white;
     background: rgb(133, 187, 189);
 }
+
 #tpic {
     margin: 20px;
 }
+
 .answer {
     display: flex;
     justify-content: flex-end;
     justify-content: space-evenly;
 }
+
 .tee #tpic {
     margin-top: 20px;
     border: 1px solid gray;
@@ -181,14 +191,17 @@ label {
     background: rgb(140, 208, 212);
     color: white;
 }
+
 .tee a {
     color: rgb(33, 189, 189);
     margin-right: 10px;
 }
+
 .recent a {
     display: block;
     margin-bottom: 10px;
 }
+
 footer {
     bottom: 0;
     position: fixed;
