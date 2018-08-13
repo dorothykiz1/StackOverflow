@@ -214,3 +214,12 @@ footer {
     padding-bottom: 10px;
     margin-top: 0;
 }
+
+.signout {
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media screen and (max-width:600px) {
+    background-color: azure;
+}
