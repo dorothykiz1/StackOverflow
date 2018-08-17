@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>stackoverflow _lite</title>
+    <title>stackoverflow _lite|Home</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -21,13 +21,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="user-profile.html">User-Profile</a>
-                    </li>
-                    <li>
-                        <a href="topics.html">Topics</a>
-                    </li>
-                    <li>
-                        <a href="questions.html">Questions</a>
+                        <a href="signup.html">Sign up</a>
                     </li>
 
                 </ul>
@@ -37,34 +31,45 @@
             <div class="a-element">
                 <h3>Sign In</h3>
                 <label for="username">Username:</label>
-                <input type="text" value="username" placeholder="Username">
+                <input type="text" value="username" placeholder="Username or email">
                 <label for="password">Password:</label>
                 <input type="password" value="password" placeholder="Password">
                 <br>
-                <input type="submit" name="submit" value="submit">
+                <a href="user-profile.html">
+                    <input type="submit" name="signin" class="signin" value="Sign In">
+                </a>
+                <div class="sign">
+                    <p>Don't have an account?
+                        <a href="signup.html" id="#11">
+                            <b>Sign Up</b>
+                        </a>
+
+                    </p>
+                </div>
 
             </div>
             <div class="b-element">
+                <textarea name="search" id="search" rows="1" placeholder="search stackoverflow"></textarea>
                 <h3>Select Topic</h3>
                 <select name="Available Topics" id="topic">
-                    <option value="Social life">Social life</option>
-                    <option value="Fashion and Style">Fashion and Style</option>
-                    <option value="Psycology">Psycology</option>
-                    <option value="Fitness and Wellness">Fitness and Welness</option>
-                    <option value="Good Hair Tips">Good Hair Tips</option>
-                    <option value="Relationships">Relationships</option>
-                    <option value="Politics">Politics</option>
+                    <option value="Social">Social</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Programming">Programming</option>
+                    <option value="AI">AI</option>
+                    <option value="Health">Health</option>
+                    <option value="Games">Games</option>
+                    <option value="Communication">Communication</option>
                 </select>
             </div>
             <div class="c-element">
                 <h3>Ask a Question</h3>
-                <textarea name="Question" id="qtn" cols="60" rows="15">Ask:</textarea>
+                <textarea name="Question" id="qtn" cols="50" rows="5" placeholder="Type starting with How,Why,What,Is,What and Are?"></textarea>
                 <br>
                 <input type="submit" name="Post a Question" value="Post">
             </div>
         </div>
         <footer>
-            <h4>stack over flow</h4>
+            <h4> &reg; stack over flow &rarr; lite</h4>
         </footer>
     </div>
 </body>
