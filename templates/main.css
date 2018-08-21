@@ -5,30 +5,34 @@ body {
 }
 
 header {
-    background: #cad4ca;
     padding: 15px;
+    background: #7d817d;
     text-transform: uppercase;
+    height: 200px;
 }
 
-h1 {
+h2 {
+    height: 100px;
     text-transform: lowercase;
+    color: rgb(77, 74, 66);
+    font-weight: 600px;
 }
 
-.in {
-    color: rgb(110, 107, 107);
-}
+
+/* puts the links in the header element and to th right side */
 
 .navbar {
     text-align: right;
+    margin-top: -90px;
 }
 
 a {
     text-decoration: none;
-    color: rgb(110, 107, 107);
+    color: rgb(59, 54, 54);
 }
 
 .navbar a:hover {
-    color: rgb(33, 177, 28);
+    color: rgb(230, 80, 34);
 }
 
 .navbar ul {
@@ -37,7 +41,9 @@ a {
 
 .navbar li {
     display: inline;
+    margin: 0 auto;
     padding-right: 10px;
+    padding-bottom: 30px;
 }
 
 .parent-element {
@@ -64,7 +70,7 @@ label {
 
 .a-element input.signin {
     color: white;
-    background: rgb(79, 149, 182);
+    background: rgb(226, 62, 33);
     margin-top: 10px;
 }
 
@@ -99,13 +105,13 @@ label {
 
 .c-element input {
     color: white;
-    background: rgb(79, 149, 182);
+    background: rgb(226, 62, 33);
     margin-top: 10px;
+    border: none;
 }
 
 .SignU h2 {
-    color: rgb(135, 192, 192);
-    text-shadow: green;
+    color: rgb(223, 106, 70);
     text-align: center;
 }
 
@@ -127,20 +133,21 @@ label {
 
 .SignU input.signup {
     width: 20%;
-    background: rgb(79, 149, 182);
+    background: rgb(226, 62, 33);
     color: white;
     text-align: left;
 }
 
 .sign1 {
     color: rgb(75, 72, 72);
-    margin-top: 40px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
-.profile a {
-    display: block;
-    margin: 20px;
+.profile img {
+    margin-top: 10px;
+    width: 5%;
+    height: 10%;
 }
 
 .userdata {
@@ -169,9 +176,15 @@ label {
     outline: none;
 }
 
+h1 img {
+    width: 200px;
+    height: 100px;
+}
+
 .query input {
     color: white;
-    background: rgb(133, 187, 189);
+    background: rgb(218, 46, 40);
+    border: none;
 }
 
 #tpic {
